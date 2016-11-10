@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAudioProcessor\src\ofxAudioReader.cpp">
+			<Filter>addons\ofxAudioProcessor\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAudioProcessor\src\ofxAudioRecorder.cpp">
+			<Filter>addons\ofxAudioProcessor\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor">
+			<UniqueIdentifier>{3CCBACDB-61AA-289F-D0C8-4BE4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\src">
+			<UniqueIdentifier>{F7B8AF51-FA60-408C-AFBE-BD1F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs">
+			<UniqueIdentifier>{76B86B3F-F615-0E26-6889-1561}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win32">
+			<UniqueIdentifier>{B1368980-704E-2AE3-CFEE-040F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win32\libsndfile">
+			<UniqueIdentifier>{D710C046-6167-0322-00D6-600F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win32\libsndfile\include">
+			<UniqueIdentifier>{E8A53E2E-A12B-3757-9AD0-8F33}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win64">
+			<UniqueIdentifier>{B5FF1BFA-C430-3188-DADB-73D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win64\libsndfile">
+			<UniqueIdentifier>{B7E14E96-7C42-043D-7274-3A21}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAudioProcessor\libs\win64\libsndfile\include">
+			<UniqueIdentifier>{BCF3C47C-AD50-64BF-3EFB-37BB}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAudioProcessor\src\ofxAudioReader.h">
+			<Filter>addons\ofxAudioProcessor\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAudioProcessor\src\ofxAudioRecorder.h">
+			<Filter>addons\ofxAudioProcessor\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAudioProcessor\libs\win32\libsndfile\include\sndfile.h">
+			<Filter>addons\ofxAudioProcessor\libs\win32\libsndfile\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAudioProcessor\libs\win64\libsndfile\include\sndfile.h">
+			<Filter>addons\ofxAudioProcessor\libs\win64\libsndfile\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
