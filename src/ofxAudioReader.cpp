@@ -91,6 +91,7 @@ void ofxAudioReader::stop() {
 	soundStatus &= ~PLAYING;
 }
 
+// update the audio play position
 double ofxAudioReader::update() {
 	if (!(soundStatus & PLAYING))
 		return 0;

@@ -1,3 +1,5 @@
+// This code changed from https://forum.openframeworks.cc/t/example-of-playing-back-a-sample-in-ofsoundstream/3502/21 
+// many thanks to grimus
 
 #include <vector>
 
